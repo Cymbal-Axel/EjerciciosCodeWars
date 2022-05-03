@@ -12,9 +12,9 @@ function removeUrlAnchor(url){
 
     var arr = url.split('');
     var newString = '';
-    for (let i = 0; i < arr.length; i++){
-        if (arr[i] != '#'){
-            newString += arr[i]
+    for (let j = 0; j < arr.length; j++){
+        if (arr[j] != '#'){
+            newString += arr[j]
         } else{
             break;
         }
